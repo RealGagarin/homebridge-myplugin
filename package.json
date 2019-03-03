@@ -4,5 +4,11 @@
   "description": "",
   "main": "index.js",
   "author": "Denis Levshin",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.2.5"
+  }
 }
