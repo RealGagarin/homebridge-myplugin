@@ -1,6 +1,3 @@
-const request = require('request');
-const url = require('url');
-
 let Service = null, Characteristic = null;
 
 module.exports = function (homebridge) {
