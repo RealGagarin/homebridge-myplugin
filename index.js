@@ -42,6 +42,6 @@ mySwitch.prototype = {
     setSwitchOnCharacteristic: function (on, next) {
         const me = this;
         console.log('setSwitchOnCharacteristic', on)
-        return next();
+        return next(new Error('myError'));
     }
 };
