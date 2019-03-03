@@ -1,4 +1,4 @@
-const a = requre('fs');
+
 let Service = null, Characteristic = null;
 
 module.exports = function (homebridge) {
