@@ -36,11 +36,13 @@ mySwitch.prototype = {
 
     getSwitchOnCharacteristic: function (next) {
         const me = this;
+        console.log('getSwitchOnCharacteristic');
         return next(null, 1);
     },
 
     setSwitchOnCharacteristic: function (on, next) {
         const me = this;
+        console.log('setSwitchOnCharacteristic', on)
         return next();
     }
 };
