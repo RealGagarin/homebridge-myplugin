@@ -1,3 +1,4 @@
+const a = requre('fs');
 let Service = null, Characteristic = null;
 
 module.exports = function (homebridge) {
@@ -6,12 +7,10 @@ module.exports = function (homebridge) {
     homebridge.registerAccessory("switch-plugin", "MyAwesomeSwitch", mySwitch);
 };
 
-
-
-
 function mySwitch(log, config) {
     this.log = log;
     this.config = config;
+    console.log(config);
 }
 
 mySwitch.prototype = {
